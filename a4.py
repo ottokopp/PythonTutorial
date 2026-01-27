@@ -10,14 +10,25 @@ Das ist der absolute Code-Bewerbungsgespräch Klassiker:
     # wenn der Rest 0 ist, ist die Zahl teilbar.)
 """
 
-def fizz_buzz():
-    # Beispiel wie Modulo funktioniert, kannst du ignorieren, ist nur als Referenz für dich.
-    print("Stimmt es, dass 15 durch 5 teilbar ist?:", 15 % 5 == 0)
+
+
+
+"""print("Stimmt es, dass 15 durch 5 teilbar ist?:", 15 % 5 == 0)
     print("Stimmt es, dass 15 durch 4 teilbar ist?:", 15 % 4 == 0)
     print("Stimmt es, dass 15 durch 3 UND 5 teilbar ist?:", (15 % 3 == 0 and 15 % 5 == 0))
-    print("Stimmt es, dass 15 durch 4 UND 5 teilbar ist?:", (15 % 4 == 0 and 15 % 5 == 0))
+    print("Stimmt es, dass 15 durch 4 UND 5 teilbar ist?:", (15 % 4 == 0 and 15 % 5 == 0))'
+"""
     # Beispiel Ende
 
     # TODO: Ab hier kommt dein Code.
+
+def fizz_buzz():
+    for i in range (1,101):
+        if i % 3 == 0:
+            print(i,"Fizz")
+        if i % 5 == 0:
+            print(i,"Buzz")
+        if i % 3 == 0 and i % 5 == 0:
+            print(i,"FizzBuzz")
 
 fizz_buzz()

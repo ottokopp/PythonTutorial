@@ -5,6 +5,9 @@ Weils so schön war:
 
 # TODO: Hier kommt dein Import.
 
+import a4 as afour
+fizz_buzz = afour.fizz_buzz
+
 ### AB HIER NICHTS VERÄNDERN, AB HIER MUSS FEHLERFREI AUSFÜHRBAR SEIN ###
 fizz_buzz()
 ### BIS HiER NICHTS VERÄNDERN ###
