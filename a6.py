@@ -6,8 +6,11 @@
 
 def strings_und_ints():
     # TODO: Passen diesen Code an, damit er keine Fehler mehr wirft und die richtige Ausgabe erscheint.
-    print("1. Ich möchte, das nach diesem Satz die Zahl 11 kommt: " + 11)
+    print("1. Ich möchte, das nach diesem Satz die Zahl 11 kommt: "+ "11")
+    print("1. Ich möchte, das nach diesem Satz die Zahl 11 kommt: ", 11)
+    print("1. Ich möchte, das nach diesem Satz die Zahl 11 kommt: ", "11")
     print("2. Ich möchte gerne wissen, was 5 + 6 ergibt:")
-    print("5" + "6")
+    print(int("5") + int("6"))
+    print(str(11))
 
 strings_und_ints()

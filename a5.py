@@ -7,6 +7,20 @@
 
 # TODO: Hier deine Klassendefinition.
 
+class Person:
+    def __init__(self, name, beruf):
+        self.name = name
+        self.beruf = beruf
+
+class Beruf:
+    def __init__(self, name, erfahrung):
+        self.name = name
+        self.erfahrung = erfahrung
+
+class Erfahrung:
+    def __init__(self, level):
+        self.level = level
+
 
 ### AB HIER NICHTS VERÄNDERN, AB HIER MUSS FEHLERFREI AUSFÜHRBAR SEIN ###
 kevin = Person("Kevin", Beruf("Mechaniker", Erfahrung("ein Anfänger")))
