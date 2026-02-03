@@ -1,3 +1,9 @@
+### WICHTIG ###
+# Alle Hausaufgaben grundsätzlich nur in eurer eigenen Git-Branch machen.
+# 'git checkout -b "dein_name"' um eine neue Branch zu erstellen.
+# Wenn ihr die Hausaufgabe korrigiert haben wollt, get auf die GitHub Seite der Repo, wählt eure Branch aus und drückt auf "Pull Request".
+
+
 """
 Willkommen zu HA 2. Diesmal arbeiten wir mit Files auf unserem Computer.
 
