@@ -22,3 +22,4 @@ Dann, falls du noch keinen ".venv" Ordner in deinem Projekt hast, erstelle einen
 ```
 python -m venv .venv
 ```
+.
