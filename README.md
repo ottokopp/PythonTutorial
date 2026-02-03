@@ -13,22 +13,22 @@
 
 
 # Git-Setup für HA
-![](_bilder\img1.PNG)
+![ScreenShot](_bilder\img1.PNG)
 Wenn du die "PythonTutorial"-Repository von git noch nicht auf deinen Rechner geklont hast, dann such dir einen freien, **leeren** Ordner aus (oder mach einen neuen, kannst ihn nennen, wie du willst), wo die rein soll. 
 Rechtsklick diesen Ordner, drücke auf "Git bash" (siehe Bild) und in dem erscheinenden Terminal, gib folgenden Befehl ein:
 ```
 git clone git@github.com:ottokopp/PythonTutorial.git
 ```
-![](_bilder\img2.PNG)
-![](_bilder\img3.PNG)
-![](_bilder\img4.PNG)
+![ScreenShot](_bilder\img2.PNG)
+![ScreenShot](_bilder\img3.PNG)
+![ScreenShot](_bilder\img4.PNG)
 Wenn du die Repo schonmal geklont hast und schon auf deinem Rechner hast, kannst du wie oben mit Rechtklick auf den Ordner -> "Git bash" das Terminal für den Ordner öffnen und musst nur die aktuellste Version runterziehen. Das machst du, in dem du auf die Haupt-"Branche" wechselst und "pullst", so wie hier:
 ```
 git checkout master
 git pull
 ```
-![](_bilder\img5.PNG)
-![](_bilder\img6.PNG)
+![ScreenShot](_bilder\img5.PNG)
+![ScreenShot](_bilder\img6.PNG)
 Dann, falls du noch keinen ".venv" Ordner in deinem Projekt hast, erstelle einen mit (das geht in jedem Terminal, das im richtigen Ordner geöffnet ist. Kannst du in Git Bash machen, wo du gerade git pull ausgeführt hast. Oder später im VsCode Terminal.)
 ```
 python -m venv .venv
