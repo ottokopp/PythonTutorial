@@ -15,7 +15,6 @@ git clone git@github.com:ottokopp/PythonTutorial.git
 ![](img2.PNG "Clone a Repo")
 Wenn du die Repo schonmal geklont hast und schon auf deinem Rechner hast, kannst du wie oben mit Rechtklick auf den Ordner -> "Git bash" das Terminal für den Ordner öffnen und musst nur die aktuellste Version runterziehen. Das machst du, in dem du auf die Haupt-"Branche" wechselst und "pullst", so wie hier:
 ```
-// (checke vorher ob das Terminal im richtigen Ordner offen ist)
 git checkout master
 git pull
 ```
