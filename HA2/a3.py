@@ -43,7 +43,7 @@ noch fehlerfrei ausführbar sind und die erwarteten Ergebnisse liefern.
 
 ### In dieser Datei nichts anfassen, nur ausführen! ###
 if __name__ == "__main__":
-    from HA2.a1 import ChessClubDatabase
+    from a1 import ChessClubDatabase
     db = ChessClubDatabase()
     print(db.get_members(as_objects=True))
 ########################################################

@@ -40,7 +40,7 @@ db.get_members(as_list=True) # du erhälst eine Liste.
 
 # IN DIESER DATEI SCHREIBST DU GAR KEINEN CODE. DU HAST ES GESCHAFFT, WENN SIE OHNE ÄNDERUNGEN FEHLERFREI AUSFÜHRBAR IST UND EINE LISTE PRINTET.
 if __name__ == "__main__":
-    from HA2.a1 import ChessClubDatabase
+    from a1 import ChessClubDatabase
 
     db = ChessClubDatabase()
     print(db.get_members(as_list=True))
