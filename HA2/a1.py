@@ -35,8 +35,9 @@ class ChessClubDatabase():
 
 
 # Ab hier nichts ändern. Ab hier muss fehlerfrei ausführbar sein.
-db = ChessClubDatabase()
-print(db.get_members())
+if __name__ == "__main__":
+    db = ChessClubDatabase()
+    print(db.get_members())
 # Bis hier nichts ändern.
 
 """

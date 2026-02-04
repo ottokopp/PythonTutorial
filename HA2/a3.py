@@ -42,7 +42,8 @@ noch fehlerfrei ausführbar sind und die erwarteten Ergebnisse liefern.
 """
 
 ### In dieser Datei nichts anfassen, nur ausführen! ###
-from HA2.a1 import ChessClubDatabase
-db = ChessClubDatabase()
-print(db.get_members(as_objects=True))
+if __name__ == "__main__":
+    from HA2.a1 import ChessClubDatabase
+    db = ChessClubDatabase()
+    print(db.get_members(as_objects=True))
 ########################################################
