@@ -9,7 +9,7 @@ Das ist jetzt Fantasy-Christmas-Land. Fantasier mal was zusammen.
 """
 
 print("Mich nervt bzw das fände ich richtig praktisch:" \
-        "" \
+        "" \Bewerbungen automatisch schreiben
         "" \
         "" \
         "" \

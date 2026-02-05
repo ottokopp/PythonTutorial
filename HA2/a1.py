@@ -25,14 +25,46 @@ class ChessClubDatabase():
     def __init__(self):
         pass
 
-    def get_members():
+    """def create_member_from_csv_line(self, line):
+        member = ChessClubMember(line[0], line[1], line[2], line[3], line[4], line[5], line[6])
+        return member"""
+
+    def get_members(self, as_list=False, as_objects=False):
         chessclub_members = ""
+        with open(r"HA2\schachverein_mitglieder.csv") as data:
+            
+            if as_objects == True:
+                chessclub_members = data.read()
+                chessclub_members = chessclub_members.split(",")
+                print(chessclub_members[1:])
+                """for n, line in enumerate(chessclub_members):
+                    if n != 0:
+                        return line
+                    else:
+                        pass"""
+
+            elif as_list == False:
+                chessclub_members = data.read()
+                print(type(chessclub_members))
+
+            else:
+                chessclub_members = data.readlines()
+                print(type(chessclub_members))
+                return chessclub_members
+
 
         # TODO: Hier kommt dein Code zum Einlesen der Datei und speichern in 'chessclub_members'
 
-
-        return chessclub_members
-
+class ChessClubMember:
+    def __init__(self, Vorname, Nachname, Spitzname, Alter, Beruf, Mitgliedseit, ELO):
+        self.vorname = Vorname
+        self.nachname = Nachname
+        self.spitzname = Spitzname
+        self.alter = Alter
+        self.beruf = Beruf
+        self.mitgliedseit = Mitgliedseit
+        self.elo = Elo
+     
 
 # Ab hier nichts ändern. Ab hier muss fehlerfrei ausführbar sein.
 if __name__ == "__main__":
